@@ -137,5 +137,5 @@ in the implementation of `findById()`** or just a not (well) documented feature.
 with or without `em.clear()` and `em.detach(entity)` between them.
     * [NonTransactionalTests](src/test/java/demo/NonTransactionalTests.java) - runs all 6 tests **WITHOUT** 
     `@Transactional` annotation on test class. **All tests succeed**
-    * [TransactionalTests](src/test/java/demo/NonTransactionalTests.java) - runs all 6 tests **WITH** 
+    * [TransactionalTests](src/test/java/demo/TransactionalTests.java) - runs all 6 tests **WITH** 
     `@Transactional` annotation on test class. **`findById_getOne()` and `getOne_findById()` fail**
